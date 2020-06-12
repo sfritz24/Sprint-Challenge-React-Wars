@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import axios from 'axios';
 import Character from './components/Character';
+import Styles from './styles/AppCard';
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -25,7 +26,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
-      <div className="cards">
+      <Styles>
         <h2>Characters 1-10</h2>
         <div>
         {
@@ -34,7 +35,7 @@ const App = () => {
           })
         }
         </div>
-      </div>
+      </Styles>
     </div>
   );
 }
