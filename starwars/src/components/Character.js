@@ -8,7 +8,7 @@ const Character = (props)=>{
             <h3>{character.name}</h3>
             <h5>Height: {character.height}cm</h5>
             <h5>Eye Color: {character.eye_color}</h5>
-
+            <h5>Weight: {character.mass}kg</h5>
         </div>
     )
 };
