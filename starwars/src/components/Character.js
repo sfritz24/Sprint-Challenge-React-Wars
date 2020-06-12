@@ -2,8 +2,7 @@
 import React from 'react';
 import CharacterStyles from '../styles/CharacterCard';
 
-const Character = (props)=>{
-    const {character} = props
+const Character = ({character})=>{
     return(
         <CharacterStyles>
             <h3>{character.name}</h3>
