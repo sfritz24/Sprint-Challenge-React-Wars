@@ -28,7 +28,7 @@ const App = () => {
       <h1 className="Header">Characters</h1>
       <Styles>
         <h2>Characters 1-10</h2>
-        <div>
+        <div className="characterCards">
         {
           data.map(characters =>{
             return <Character key={characters.name} character={characters}/>
